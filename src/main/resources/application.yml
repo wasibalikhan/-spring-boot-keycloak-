@@ -1,0 +1,16 @@
+server:
+  port: 9080
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+keycloak:
+  realm: waktech
+  auth-server-url: http://localhost:8080/auth
+  resource: springbootkeycloak
+  public-client: true
+  bearer-only: true
+
+
